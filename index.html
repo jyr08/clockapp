@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time</title>
     
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -11,17 +12,44 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+     <!-- Fontshare -->
 
-    <!-- Scripts -->
-    <script src="script.js" defer></script>
+  <link href="https://api.fontshare.com/v2/css?f[]=tanker@400&display=swap" rel="stylesheet"> 
+  
+  <!--  Styles -->
+  <link rel="stylesheet" href="css/style.css">
     
-    <title>Clock App</title>
+  <!-- Scripts -->
+  <script src="js/time.js" defer></script>
+  <script src="js/date.js" defer></script>
+  <script src="js/script.js" defer></script>
+  
 </head>
-<body>
-    
-    <h1>Clock App</h1>
 
+<body class="dark">
+  <a href="#"> Light / Dark</a>
+
+
+<main>
+  
+  <!-- Time -->
+  <time class="time">
+          <data class="hours">HH</data> :
+          <data class="minutes">MM</data> :
+          <data class="seconds">SS</data>
+          <data class="amOrPM">AM/PM</data>
+      </time>
+
+    
+  <!-- Date -->
+  <time class="date">
+    <data class="month">Month</data>
+    <data class="dayOfMonth">00</data>,
+    <data class="year">0000</data> -
+    <data class="dayOfWeek">SMTWTFS</data>
+  </time>
+
+</main>
+  
 </body>
 </html>

@@ -1,0 +1,28 @@
+/* Diagnostic */
+
+* {
+    outline: 1px dotted darkgray;
+  }
+  
+  body{
+    font-family: 'Tanker', sans-serif;
+    
+  }
+  
+  /* Dark Mode */
+  .dark{
+    background: darkgrey;
+    color: whitesmoke;
+    transition: background .5s;
+  }
+  
+  /* Clock */
+  
+  main{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
