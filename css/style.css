@@ -1,12 +1,12 @@
 /* Diagnostic */
 
 * {
-    outline: 1px dotted darkgray;
+    /* outline: 1px dotted darkgray; */
   }
   
   body{
-    font-family: 'Tanker', sans-serif;
-    
+    font-family: 'Erode', serif;
+    background: pink;
   }
   
   /* Dark Mode */

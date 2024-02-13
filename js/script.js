@@ -1,7 +1,7 @@
 // Get link/button/toggle
 // Get the <body>
 
-const lightDark = document.querySelector('a');
+const lightDark = document.querySelector('button');
 const body = document.querySelector('body');
 
 // SETTING
