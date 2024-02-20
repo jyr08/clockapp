@@ -5,14 +5,15 @@
   }
   
   body{
-    font-family: 'Erode', serif;
-    background: pink;
+    font-family: 'Share Tech Mono', monospace;
+    background: #ffb6b9;
+    color: #ffebeb;
   }
   
   /* Dark Mode */
   .dark{
-    background: darkgrey;
-    color: whitesmoke;
+    background: #3c4245;
+    color: #dfcdc3;
     transition: background .5s;
   }
   

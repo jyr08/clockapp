@@ -3,7 +3,7 @@ Static Data
 ************/
 const allTheMonths = [
     "january",
-    "february",
+    "February",
     "march",
     "april",
     "may",
@@ -40,11 +40,13 @@ const allTheMonths = [
   // Get current year
   const gotYear = dateNow.getFullYear();
   // Get current day of the week
-  const gotDayOfWeek = dateNow.getDay();
+  // const gotDayOfWeek = dateNow.getDay();
   
   // Check-Check: Is the data correct? 
-  console.log(gotMonth, gotDayOfMonth, gotYear, gotDayOfWeek);
-  
+  console.log(gotMonth, gotDayOfMonth, gotYear);
+  // , gotDayOfWeek
+
+
   /************
   Get DOM Elements
   ************/
@@ -55,7 +57,7 @@ const allTheMonths = [
   // Get year
   const year = document.querySelector('.year');
   // Get Day of Week
-  const dayOfWeek = document.querySelector('.dayOfWeek');
+  // const dayOfWeek = document.querySelector('.dayOfWeek');
   
   
   /************
@@ -68,4 +70,4 @@ const allTheMonths = [
   // Set the year
   year.innerText = gotYear;
   // Set the day of the week
-  dayOfWeek.innerText = allTheDays[gotDayOfWeek];
+  // dayOfWeek.innerText = allTheDays[gotDayOfWeek];
