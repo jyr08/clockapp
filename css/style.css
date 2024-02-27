@@ -26,4 +26,9 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    border: 20px solid;
+    border-radius: 400px;
+
+   
+    
   }
