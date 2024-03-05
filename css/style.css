@@ -1,17 +1,18 @@
 /* Diagnostic */
-
+@import "https://unpkg.com/open-props";
 * {
     /* outline: 1px dotted darkgray; */
   }
   
   body{
     font-family: 'Share Tech Mono', monospace;
-    background: #ffb6b9;
-    color: #ffebeb;
+    background: #facacc;
+    color: #ac3870;
   }
   
   /* Dark Mode */
   .dark{
+
     background: #3c4245;
     color: #dfcdc3;
     transition: background .5s;
@@ -20,15 +21,31 @@
   /* Clock */
   
   main{
-    font-size: 5rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    border: 20px solid;
-    border-radius: 400px;
+    /* border: 10px solid;
+    border-color: whitesmoke;
+    border-radius: 300px;
+    width: 400px;
+    height: 100px; */
+    letter-spacing: 0.05em;
+    font-size: 4rem;
+    padding: 5px 0;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ac3870;
+    text-shadow: 3px 0px 6px #ac3870;
+    /* text-shadow: 0 0 20px rgba(10, 300, 100, 1),  0 0 20px rgba(10, 15, 100, 0); */
+  }
 
    
     
-  }
+  
