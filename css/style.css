@@ -7,15 +7,15 @@
   body{
     font-family: 'Share Tech Mono', monospace;
     background: #facacc;
-    color: #ac3870;
+ 
   }
   
   /* Dark Mode */
   .dark{
 
-    background: #3c4245;
-    color: #dfcdc3;
+    background: #272a2c;
     transition: background .5s;
+    
   }
   
   /* Clock */
@@ -41,9 +41,14 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: #ac3870;
+    color: whitesmoke;
     text-shadow: 3px 0px 6px #ac3870;
     /* text-shadow: 0 0 20px rgba(10, 300, 100, 1),  0 0 20px rgba(10, 15, 100, 0); */
+  }
+
+  .text {
+    color: white;
+    font-size: 1rem;
   }
 
    
