@@ -49,8 +49,18 @@
   .text {
     color: white;
     font-size: 1rem;
+    font-style: italic;
+    text-shadow: #facacc;
   }
 
-   
+
     
+  h1 {
+    color: #ac3870;
+    font-family: 'Share Tech Mono', monospace;
+  }
   
+  h2 {
+    color: whitesmoke;
+    font-family: 'Share Tech Mono', monospace;
+  }
